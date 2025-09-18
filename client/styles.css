@@ -1,0 +1,22 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.resultado {
+  border: 1px solid black;
+  margin: 5px;
+  min-width: 50%;
+  padding: 10px;
+  font-family: monospace;
+}
